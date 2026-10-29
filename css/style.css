@@ -1,7 +1,7 @@
 /**--->  GLOBALE STYLE <--- */
 
 :root {
---primary-color: #8E51FF ;
+  --primary-color: #8e51ff;
 }
 
 * {
@@ -131,9 +131,7 @@ ul {
   color: var(--primary-color);
 }
 
-
 /* ?--->  Start media Query (navbar) <--- */
-
 
 @media screen and (max-width: 970px) {
   .navbar .right {
@@ -275,11 +273,15 @@ ul {
 .contant-product .but-1 img {
   width: 23px;
   margin-right: 7px;
+  position: relative;
+  top: 3px;
 }
 
 .contant-product .but-2 img {
   width: 23px;
   margin-right: 7px;
+  position: relative;
+  top: 3px;
 }
 
 .contant-product .but-1,
@@ -292,9 +294,7 @@ ul {
   transform: scale(1.025);
 }
 
-
 /* ?--->  Start media Query (Product Details) <--- */
-
 
 @media screen and (max-width: 1030px) {
   .product-details .contanier {
@@ -339,8 +339,6 @@ ul {
     margin: 0 auto;
     margin-left: 10px;
   }
-
-
 }
 
 @media screen and (min-width: 1400px) {
@@ -483,7 +481,7 @@ ul {
 }
 
 .key-features .call-to-action {
-  background-color: #7F22FE;
+  background-color: #7f22fe;
   width: 98%;
   margin: 50px auto;
   padding: 45px;
@@ -511,10 +509,7 @@ ul {
   border-radius: 25px;
 }
 
-
 /* ?--->  Start media Query (key features) <--- */
-
-
 
 @media screen and (max-width: 450px) {
   .key-features .features-cards .card {
@@ -556,7 +551,7 @@ ul {
 
   .key-features .call-to-action {
     width: 98%;
-    height: 250px;
+    height: 200px;
   }
 }
 
@@ -784,11 +779,7 @@ ul {
   border: 2px solid #7f22fe;
 }
 
-
-
 /* ?--->  Start media Query (customer reviews) <--- */
-
-
 
 @media screen and (max-width: 489px) {
   .customer-reviews .reviews-list .inner .content-personality p {
@@ -957,10 +948,7 @@ ul {
   color: white;
 }
 
-
 /* ?--->  Start media Query (related products) <--- */
-
-
 
 @media screen and (max-width: 619px) {
   .related-products .Products-cards .card {
@@ -1125,10 +1113,7 @@ ul {
   padding: 5px 15px;
 }
 
-
 /* ?--->  Start media Query (footer) <--- */
-
-
 
 @media screen and (max-width: 770px) {
   .footer .footer-brand {
